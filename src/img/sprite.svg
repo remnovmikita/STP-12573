@@ -1,5 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
   <defs>
+    <symbol id="icon-Icon" viewBox="0 0 47 32">
+      <path fill="none" stroke="#5a3e2b" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.667" d="M45.333 16H11.111M45.333 1.333h-44m44 29.334h-44" style="stroke:var(--color1, #5a3e2b)"/>
+    </symbol>
     <symbol id="icon-Google" viewBox="0 0 29 32">
       <path d="M.568.482C.211.856 0 1.436 0 2.187v26.844c0 .753.211 1.332.568 1.705l.091.087 15.19-15.038v-.354L.659.392z"/>
       <path d="m20.91 20.801-5.062-5.014v-.354l5.063-5.013.114.064 5.999 3.374c1.713.964 1.713 2.54 0 3.505z"/>
@@ -7,10 +10,10 @@
       <path d="M21.026 10.482 3.116.408C2.065-.183 1.132-.109.568.483l15.28 15.128z"/>
     </symbol>
     <symbol id="icon-Star" viewBox="0 0 33 32">
-      <path fill="#f8e221" stroke="#5a3e2b" stroke-width="2.909" d="m19.136 12.51.327 1.006h9.261l-7.493 5.443 2.861 8.808-7.491-5.443-7.493 5.443 2.862-8.808-7.493-5.443h9.261l2.862-8.81z" style="fill:var(--color1, #f8e221);stroke:var(--color2, #5a3e2b)"/>
+      <path fill="#f8e221" stroke="#5a3e2b" stroke-width="2.909" d="m19.136 12.51.327 1.006h9.261l-7.493 5.443 2.861 8.808-7.491-5.443-7.493 5.443 2.862-8.808-7.493-5.443h9.261l2.862-8.81z" style="fill:var(--color2, #f8e221);stroke:var(--color1, #5a3e2b)"/>
     </symbol>
     <symbol id="icon-Star-fill" viewBox="0 0 33 32">
-      <path fill="#5a3e2b" stroke="#5a3e2b" stroke-width="2.909" d="m19.136 12.51.327 1.006h9.261l-7.493 5.443 2.861 8.808-7.491-5.443-7.493 5.443 2.862-8.808-7.493-5.443h9.261l2.862-8.81z" style="fill:var(--color2, #5a3e2b);stroke:var(--color2, #5a3e2b)"/>
+      <path fill="#5a3e2b" stroke="#5a3e2b" stroke-width="2.909" d="m19.136 12.51.327 1.006h9.261l-7.493 5.443 2.861 8.808-7.491-5.443-7.493 5.443 2.862-8.808-7.493-5.443h9.261l2.862-8.81z" style="fill:var(--color1, #5a3e2b);stroke:var(--color1, #5a3e2b)"/>
     </symbol>
   </defs>
 </svg>
