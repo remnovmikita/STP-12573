@@ -1,0 +1,86 @@
+.btn-back{
+    display: flex;
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 36px;
+    width: 220px;
+    height: 48px;
+}
+.btn-back-icon{
+    margin-right: 16px;
+}
+.headers-h1{
+    font-family: "Luckiest Guy", sans-serif;
+font-weight: 400;
+font-size: 56px;
+color: #faf7f0;
+-webkit-text-stroke:2px #5a3e2b;
+margin-bottom: 36px;
+}
+.btn-back{
+    font-family: "Baloo 2", sans-serif;
+font-weight: 600;
+font-size: 20px;
+line-height: 1.4;
+letter-spacing: 0.01em;
+color: #5a3e2b;
+}
+.personal-information{
+    font-family: "Baloo 2", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.4;
+letter-spacing: 0.01em;
+color: #5a3e2b;
+}
+
+.headers-h2{
+    font-family: "Baloo 2", sans-serif;
+font-weight: 500;
+font-size: 40px;
+color: #5a3e2b;
+margin-bottom: 24px;
+}
+.container .privacy{
+    padding: 18px 0;
+}
+.privacy-ul{
+    margin-top: 10px;
+    list-style-type: disc;
+    list-style-position: inside;
+    padding-left: 10px;
+}
+.privacy-ul li::marker {
+  color: #5a3e2b;   /* меняем цвет */
+  font-size: 0.9em; /* можно уменьшить размер */
+}
+
+.privacy-ul li a{
+font-weight: 600;
+font-size: 20px;
+text-decoration: underline;
+color: #5a3e2b;
+text-decoration-skip-ink: none; 
+}
+.text{
+    margin: 0;
+    list-style-type: disc;
+    list-style-position: inside;
+    padding-left: 10px;
+}
+.text li::marker {
+  color: #5a3e2b;   
+  font-size: 0.5em; 
+}
+.p{
+    text-decoration: none;
+    color: #5a3e2b;
+    text-decoration-skip-ink: none;
+    font-weight: 600;
+}
+.domain{
+    text-decoration: underline;
+}
+.privacy:last-child {
+    padding-bottom: 70px; 
+}

@@ -2,6 +2,9 @@
     width: 1040px
 }
 .ac .ac-header .ac-trigger{
+    display: flex;              /* включаем flex */
+  justify-content: space-between;
+   align-items: center;   
     font-family: "Baloo 2", sans-serif;
 font-weight: 600;
 font-size: 20px;
@@ -10,6 +13,25 @@ letter-spacing: 0.01em;
 text-align: start;
 color: #5a3e2b;
 }
+.ac .ac-trigger {
+   padding: 16px 24px !important;
+}
+.ac .ac-panel .ac-text  {
+    padding: 0 24px 16px !important;
+}
+.ac {
+    width: 100% !important;
+    border-radius: 12px;
+    margin-bottom: 24px !important;
+  border: none !important;
+}
+.ac .ac-trigger:hover,
+.ac .ac-trigger:focus,
+.ac .ac-trigger:active {
+  color: #5a3e2b !important;   /* твой цвет текста */
+  background-color: transparent !important; /* если нужно убрать фон */
+}
+
 
 .ac .ac-panel .ac-text{
 font-family: "Baloo 2", sans-serif !important;
@@ -18,19 +40,29 @@ font-size: 16px!important;
 line-height: 1.4!important;
 letter-spacing: 0.01em!important;
 color: #5a3e2b!important;
+
 }
-.ac .first{
-background: #f7d62e !important;
+.accordion .ac.first{
+background: #f7d62e;
 }
-.ac .seconde{
-    
+.accordion .ac.second{
+background: #fd8ff0;
 }
-.ac .third{
-    
+.accordion .ac.third{
+    background: #74d2ee;
 }
-.ac .fourh{
-    
+.accordion .ac.fourh{
+    background: #a4c73a;
 }
-.ac .five{
-    
+.accordion .ac.five{
+    background: #fdab4f;
+}
+.ac .ac-trigger::after{
+    content: "" !important;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-left: 8px;
+    background-size: contain;
+
 }
