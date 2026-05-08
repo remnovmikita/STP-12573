@@ -14,7 +14,9 @@
     <!--  -->
     <title>MATCH-3 ELEMENTS</title>
     <script type="module" crossorigin src="/STP-12573/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/STP-12573/assets/index-T34R_KK0.css">
+    <link rel="modulepreload" crossorigin href="/STP-12573/assets/vendor-BWrvjNli.js">
+    <link rel="stylesheet" crossorigin href="/STP-12573/assets/vendor-pvxkJjp9.css">
+    <link rel="stylesheet" crossorigin href="/STP-12573/assets/styles-Cl6gJjfs.css">
   </head>
     <header class="header">
   <h1>HEADER</h1>
@@ -50,9 +52,76 @@
     </h1>
 </section>
     <section class="faq">
-    <h1>
-        FAQ
-    </h1>
+   <div class="container container-accordion">
+    <div class="accordion">
+  <div class="ac first">
+    <h2 class="ac-header">
+      <button type="button" class="ac-trigger">Is the gameplay complicated?
+        <svg class="icon" width="20" height="20">
+        <use href="../img/sprite.svg#icon-down-icon"></use>
+        </svg>
+      </button>
+    </h2>
+    <div class="ac-panel">
+      <p class="ac-text">No. It’s easy to learn.</p>
+    </div>
+  </div>
+  
+  <div class="ac second">
+    <h2 class="ac-header">
+      <button type="button" class="ac-trigger">Do levels become harder?
+        <svg class="icon" width="20" height="20">
+        <use href="../img/sprite.svg#icon-down-icon"></use>
+        </svg>
+      </button>
+    </h2>
+    <div class="ac-panel">
+      <p class="ac-text">Yes. Difficulty increases gradually.</p>
+    </div>
+  </div>
+
+    <div class="ac third">
+    <h2 class="ac-header">
+      <button type="button" class="ac-trigger">Are there special abilities?
+        <svg class="icon" width="20" height="20">
+        <use href="../img/sprite.svg#icon-down-icon"></use>
+        </svg>
+</button>
+    </h2>
+    <div class="ac-panel">
+      <p class="ac-text">
+Yes. They unlock as you progress.</p>
+    </div>
+  </div>
+
+    <div class="ac fourh">
+    <h2 class="ac-header">
+      <button type="button" class="ac-trigger">Can I play casually?
+        <svg class="icon" width="20" height="20">
+        <use href="../img/sprite.svg#icon-down-icon"></use>
+        </svg>
+      </button>
+    </h2>
+    <div class="ac-panel">
+      <p class="ac-text">Yes. It’s designed for flexible play.</p>
+    </div>
+  </div>
+
+     <div class="ac five">
+    <h2 class="ac-header">
+      <button type="button" class="ac-trigger">Is it suitable for beginners?
+        <svg class="icon" width="20" height="20">
+        <use href="../img/sprite.svg#icon-down-icon"></use>
+        </svg>
+      </button>
+    </h2>
+    <div class="ac-panel">
+      <p class="ac-text">Yes. Very accessible.</p>
+    </div>
+  </div>
+
+</div>
+   </div>
 </section>
     <section class="contact">
     <div class="container container-contact">
@@ -65,23 +134,23 @@
     <a  class="button-link" href="https://play.google.com/store/apps/details?id=com.openmygame.games.android.swipeelements&hl=en&gl=us">
         <div class="button-goggle">
             <img 
-            src="../img/Google-Play-logo.png" 
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAdCAYAAAC0T3x2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAOdEVYdFNvZnR3YXJlAEZpZ21hnrGWYwAABIdJREFUeAG1lc9vVFUUx7/nzSul0h/TRjS2M+1rIC7YqCVqdGP/Ad2YEF2YwNKVgQgVbOhMWBjcaMOGxAXtDhq1GI1ECu00EhPF2oZUUdB2IKDMTEunSGlnOu8ez733vaGAQAvtTe7c9+O++7nf8z3nDkXPnk5UVg90VbruWK27Yed4694U1qCRe4Zn3KqTUbduACoCVK2r7JkrlpILrQfTWMVG+IGZFLii5iRFGk7BF5io42jkid5NzpPJVP27aaxCI/zICr6MDBZVRBuNMqETsYNJjiCJ2o978ZiNcNYqYguD0zAAPHUKAgGTnVRL69PxSDTxa/WuRwYSRgTky6JK7kSVQMH1ZwiNX98zeYOzLjXnL+5A/cr9I/zCDA2RThwo0/fREVCsT4sE2ZksM6mKXK4g6m2riCVTVcv3jzAmn+vVfKsIIUj3OoE19xmAvJRZRBooP1Qp5q2nSDJfdyCxPNC5ABSq0n7ZEUadwBDv+/+PjUq65LkNiXR1xwP9cyAZZmLjmM6SBHrXpLdtns1uBa5sA90F0Aq1Urn00qXpnpdz703wqNd+f5BWFSmDTCeBh928szAOP7KhlPzX19Jbi3k+eqmnFaX0II/VHOFRePeAyKI4gFCoSisK1Jls4PxWwtVtbNWEuQF4xVkMTR6DtzgLExv/3+2IVE3w+cYjPNnu3Y7CH6y0F8ZtBbtJ3/hFejResfVOe8h1PxNifSYxtJLBP4+Rp25Y5Y5sz5UxEnQXaVQgQZvRS7gQpDcv6eqOzgaqr+0GQJL6LRs/w9CFo/B8URKR/bmsRwFqmBk1jOyz9bt06HTYTKcgTEuTg6x/4RztH1ommjB06KINF4L31j0KTAxyxwao5M+3OMZWxy7PVF40hBmv9HsKEsWbuYbBw7vRMiiZ8uUW6y/fkZRlWzRkoYDhK1fR7ZqFEChgczpYIAX7Cc886d50BgOH9iB+PQMl985Io63it86bfZYVyXnslzg9fws7al7CMIxdZG0xIGWFm2v9Jd9+5sni332yB83TGVM+ZANENNIEFMSgt38jVJdQLCK/UOBE3avoXiovDF25aMOCDdJev0PLVIZOHOygeC4LxY4WbTJRsRmZx58mHG7Ll3wk/r6G1rshVpHVENaLPesClRrSnMng248+QHwqi2B9E1SlNyM3JamJeajjM5edna2vSDrfp7nBx9Y8ZY8dsmnO8UyGvjmwV0PMH6GCXdzWN6Gg/NSsX0jER78fxkOaCyzJmACiOc1ZgXTtYx0uDUF43siEouL0giolnhk73YtlNjfQUi5WC8niq84P0ZTLkS0uaEN0vc5cLxW6b9xU3S+kU3msoLlBGpsSk9hQLJNF/75OxLI5w1WOhEyZ/41PXWc+uWl8ZYCloHLBxbJZ/qKjk2K5nH0kAZvzS0PT/mKy7feBh/rwYBBslsX/yeLz3fsplp0ypbMIlb7JC9u3PCagDCJJz1hmivve30+NmRxusZ+f48XEcxdPdGM124vHR4fOPf8OX372zZm/Nr/R1e+1R7FW7Sfv9df6o2sIkPYffi06oa6CXB8AAAAASUVORK5CYII=" 
             width="28"
             height="26"
             alt="Google-play-logo">
         </div>
         <div class="button-text">
             <svg class="" width="44" height="8">
-        <use href="../img/sprite.svg#icon-get-it-on" class="google-get"></use>
+        <use href="/STP-12573/assets/sprite-CtTQ80e8.svg#icon-get-it-on" class="google-get"></use>
         </svg>
         <svg class="" width="95" height="19">
-        <use href="../img/sprite.svg#icon-google-play" class="google-play"></use>
+        <use href="/STP-12573/assets/sprite-CtTQ80e8.svg#icon-google-play" class="google-play"></use>
         </svg>
         </div>
     </a>
    </div>
    <picture>
-    <img src="../img/Contact.png" alt="contact-photo" width="508" height="508" class="contact-photo">
+    <img src="/STP-12573/assets/Contact-BpWW3d9c.png" alt="contact-photo" width="508" height="508" class="contact-photo">
    </picture>
     </div>
 </section>
