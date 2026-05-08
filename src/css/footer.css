@@ -7,12 +7,17 @@
 .footer-content a,
 .footer-content p {
   white-space: nowrap;
+ 
 }
 .footer-content a{
 font-weight: 600;
 font-size: 12px;
 letter-spacing: 0.01em;
 color: #5a3e2b;
+transition: 0.3s ease-in-out;
+     &:hover {
+  color: #faf7f0;
+ }
 }
 .footer-content p{
 font-weight: 600;
@@ -23,6 +28,7 @@ color: #5a3e2b;
 }
 @media only screen and (min-width: 1440px) {
   .footer-content{
-    justify-content: space-between;
+    justify-content: center;
+    gap: 287px;
   }
 }
