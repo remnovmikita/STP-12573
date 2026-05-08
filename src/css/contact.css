@@ -1,0 +1,28 @@
+.contact-block{
+
+}
+.contact-header{
+    font-family: "Luckiest Guy", sans-serif;
+font-weight: 400;
+font-size: 36px;
+color: #faf7f0;
+}
+.contact-text{
+font-family: "Baloo 2", sans-serif;
+font-weight: 600;
+font-size: 20px;
+line-height: 1.4;
+letter-spacing: 0.01em;
+color: #5a3e2b;
+}
+.contact-mail{
+font-family: "Baloo 2", sans-serif;
+font-weight: 600;
+font-size: 20px;
+line-height: 1.4;
+letter-spacing: 0.01em;
+color: #5a3e2b;
+}
+.contact-photo{
+    box-shadow: 12px 14px 28px 0 rgba(237, 191, 111, 0.4);
+}
