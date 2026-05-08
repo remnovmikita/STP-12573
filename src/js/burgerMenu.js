@@ -1,1 +1,1 @@
-console.log("Java працює");
+
