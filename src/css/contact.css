@@ -1,12 +1,21 @@
 .contact-block{
-
+    width: 343px;
+}
+.container-contact{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
 }
 .contact-header{
     font-family: "Luckiest Guy", sans-serif;
 font-weight: 400;
 font-size: 36px;
 color: #faf7f0;
+padding-bottom: 16px;
 }
+
 .contact-text{
 font-family: "Baloo 2", sans-serif;
 font-weight: 600;
@@ -14,6 +23,8 @@ font-size: 20px;
 line-height: 1.4;
 letter-spacing: 0.01em;
 color: #5a3e2b;
+padding-bottom: 16px;
+
 }
 .contact-mail{
 font-family: "Baloo 2", sans-serif;
@@ -22,7 +33,53 @@ font-size: 20px;
 line-height: 1.4;
 letter-spacing: 0.01em;
 color: #5a3e2b;
+padding-bottom: 24px;
 }
 .contact-photo{
     box-shadow: 12px 14px 28px 0 rgba(237, 191, 111, 0.4);
+}
+
+/*#region Button-google*/
+.button-goggle{
+    padding-left: 10px;
+}
+.google-get{
+    fill: #fff;
+stroke-width: 0.20px;
+stroke: #fff;   
+}
+.google-play{
+    fill: #fff;
+}
+.button-link{
+   width: 150px;
+   height: 44px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color:  #000;
+   border: 1px solid #a6a6a6;
+   border-radius: 5px;
+   gap: 10px;
+}
+.button-text{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 7px 0;
+    padding-right: 10px;
+}
+
+/*#endregion */
+
+@media only screen and (min-width: 1440px) {
+ .contact-block{
+    width: 508px;
+}
+.container-contact{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
 }
