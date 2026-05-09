@@ -1,13 +1,23 @@
+main.container {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
 .btn-back{
     display: flex;
     align-items: center;
-    margin-top: 70px;
+    align-items: center;
     margin-bottom: 36px;
     width: 220px;
     height: 48px;
+    margin-left: 16px;
 }
 .btn-back-icon{
     margin-right: 16px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(180deg);
 }
 .headers-h1{
     font-family: "Luckiest Guy", sans-serif;

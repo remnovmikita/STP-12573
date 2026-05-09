@@ -1,106 +1,104 @@
-.reviews-h2{
-    font-family: "Luckiest Guy", sans-serif;
-font-weight: 400;
-font-size: 36px;
-text-align: center;
-color: #faf7f0;
--webkit-text-stroke:2px #5a3e2b;
-padding-bottom: 64px;
+
+.reviews-h2 {
+  font-family: "Luckiest Guy", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  text-align: center;   
+  color: #faf7f0;
+  -webkit-text-stroke: 2px #5a3e2b;
+  padding-bottom: 64px;
 }
 
 .swiper {
   width: 100%;
-  
-}
-@media only screen and (min-width: 1440px) {
-  .swiper {
-  width: 100%;
   height: 100%;
 }
-.players-comment{
-font-family: "Baloo 2", sans-serif;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.4;
-letter-spacing: 0.01em;
-color: #5a3e2b;
 
+.players-comment {
+  font-family: "Baloo 2", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+  color: #5a3e2b;
 }
-}
-.block{
+
+
+.block {
   display: flex;
   justify-content: center;
   flex-direction: column;
   gap: 16px;
+  padding: 0 24px;
+  padding-top: 24px;
 }
 
+
 .swiper-slide {
- height: auto;
+  height: auto;
   flex-direction: column;
   justify-content: center;
   border-radius: 12px;
-padding: 24px;
-height: 100%;
-gap: 16px;
-min-height: 200px;
-
+  padding: 24px;
+  height: 100%;
+  gap: 16px;
+  min-height: 168px;
 }
 
-.players{
-font-family: "Baloo 2", sans-serif;
-font-weight: 600;
-font-size: 20px;
-line-height: 1.4;
-letter-spacing: 0.01em;
-text-align: start;
-color: #5a3e2b;
 
+.players {
+  font-family: "Baloo 2", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+  text-align: start;
+  color: #5a3e2b;
 }
-.players-comment{
-font-family: "Baloo 2", sans-serif;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.4;
-letter-spacing: 0.01em;
-color: #5a3e2b;
 
+
+.swiper-navigation {
+  padding-top: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 58px;
 }
-.swiper-navigation{
-    padding-top: 24px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 58px;
-}
+
 .reviews-prev,
 .reviews-next {
-  width: 48px;  
-  height: 48px; 
+  width: 48px;
+  height: 48px;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
 }
+
 .btn-revies {
   width: 22px;
   height: 22px;
-  fill: #5a3e2b; 
+  fill: #5a3e2b;
 }
+
 .reviews-prev .btn-revies {
   transform: rotate(180deg);
 }
-.swiper-slide.first{
-    background: #f7d62e;
-}
-.swiper-slide.second{
-    background: #fd8ff0;
-}
-.swiper-slide.third{
-background: #74d2ee;
-}
-.swiper-slide.fours{
-background: #a4c73a;
-}
-.swiper-slide.five{
-background: #fdab4f;
+
+
+.swiper-slide.first { background: #f7d62e; }
+.swiper-slide.second { background: #fd8ff0; }
+.swiper-slide.third { background: #74d2ee; }
+.swiper-slide.fours { background: #a4c73a; }
+.swiper-slide.five { background: #fdab4f; }
+
+
+@media only screen and (max-width: 1439px) {
+  .swiper {
+    height: auto; 
+  }
+  .reviews-h2{
+    text-align: start;
+    padding-bottom: 24px;
+  }
 }

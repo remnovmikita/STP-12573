@@ -1,17 +1,19 @@
 import Swiper from "swiper";
+
 import { Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 
-const reviewsSwiper = new Swiper(".reviews-swiper", {
+
+const swiper = new Swiper(".mySwiper", {
   modules: [Navigation],
   slidesPerView: 1,
   spaceBetween: 24,
   navigation: {
-    nextEl: ".reviews-next",
-    prevEl: ".reviews-prev",
+    nextEl: ".reviews-next-gallery",
+    prevEl: ".reviews-prev-gallery",
   },
-  breakpoints: {
+    breakpoints: {
     375: {
       slidesPerView: 1,
     },

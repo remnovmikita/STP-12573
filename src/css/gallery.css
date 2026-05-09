@@ -1,9 +1,46 @@
-.contact-gallery{
-    font-family: "Luckiest Guy", sans-serif;
-font-weight: 400;
-font-size: 36px;
+.reviews-h2{
+    text-align: ce;
+}
+.contact-gallery {
+  font-family: "Luckiest Guy", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  text-align: start;  
+  color: #faf7f0;
+  padding-bottom: 16px;
+  -webkit-text-stroke: 2px #5a3e2b;
+}
+.reviews-prev-gallery .btn-revies {
+  transform: rotate(180deg);
+}
+
+.swiper {
+  width: 100%;
+  height: 456px; 
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ddd;
+  padding: 0 !important;
+}
+
+.image-gallery {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+  .contact-gallery{
     text-align: center;
-color: #faf7f0;
-padding-bottom: 16px;
--webkit-text-stroke:2px #5a3e2b
+  }
+
+@media only screen and (max-width: 1439px) {
+  .swiper {
+    height: 569px;   
+  }
+  .contact-gallery {
+    text-align: start;
+  }
 }
