@@ -1,0 +1,35 @@
+.hero-title {
+  font-family: 'Luckiest Guy', sans-serif;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 1;
+  letter-spacing: 0;
+  color: #faf7f0;
+}
+
+section.hero {
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+.hero-text {
+  font-family: 'Baloo 2', sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  color: #5a3e2b;
+}
+
+.hero {
+  max-width: 100%;
+
+  background-image: url('../img/Background.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+@media (min-resolution: 2dppx), (min-resolution: 192dpi) {
+  .hero {
+    background-image: url('../img/Background@2x.png');
+  }
+}

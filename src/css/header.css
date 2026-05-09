@@ -9,13 +9,13 @@
   align-items: center;
   flex-shrink: 0;
 }
-.menu-btn-my{
-    background-color: #d6b88f;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 44px;
-    height: 44px;
+.menu-btn-my {
+  background-color: #d6b88f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
 }
 .logo-text {
   font-family: 'Luckiest Guy', sans-serif;
@@ -88,17 +88,18 @@
   }
 }
 
+.menu-btn-my {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+}
+
 @media only screen and (min-width: 1440px) {
   .logo-link-mobile,
-  .menu-btn {
+  .menu-btn-my {
     display: none;
-  }
-  .menu-btn{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 44px;
-    height: 44px;
   }
 }
 
@@ -190,6 +191,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
- background-color: #d6b88f;
+  background-color: #d6b88f;
   padding: 0;
 }
