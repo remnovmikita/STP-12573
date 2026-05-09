@@ -1,0 +1,77 @@
+.advantages-h2{
+        font-family: "Luckiest Guy", sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+    color: #faf7f0;
+    -webkit-text-stroke: 2px #5a3e2b;
+    padding-bottom: 16px;
+}
+.advantages-afher-h2{
+        font-family: "Baloo 2", sans-serif;
+        text-align: center;
+font-weight: 600;
+font-size: 20px;
+line-height: 1.4;
+letter-spacing: 0.01em;
+color: #5a3e2b;
+padding-bottom: 64px;
+}
+.advantages-ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 24px;
+}
+.advantages-li{
+    width: 508px;
+    height: 156px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 59px 24px;
+}
+.advantages-h3{
+font-family: "Baloo 2", sans-serif;
+font-weight: 600;
+font-size: 20px;
+line-height: 1.4;
+letter-spacing: 0.01em;
+text-align: center;
+color: #5a3e2b;
+margin-bottom: 16px;
+}
+.advantages-p{
+font-family: "Baloo 2", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.4;
+letter-spacing: 0.01em;
+text-align: center;
+color: #5a3e2b;
+}
+.advantages-li.first{
+    background: #f7d62e;
+}
+.advantages-li.second{
+    background: #fd8ff0;
+}
+.advantages-li.third{
+    background: #a4c73a;
+}
+.advantages-li.four{
+    background: #fdab4f;
+}
+@media only screen and (max-width: 1439px) {
+.advantages-h2{
+    padding-bottom: 16px;
+    text-align: start;
+}
+.advantages-afher-h2{
+    padding-bottom: 24px;
+    text-align:start;
+}
+}
