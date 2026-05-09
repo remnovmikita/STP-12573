@@ -1,64 +1,79 @@
 
-/* #region acoorderon*/
-
-.accordion{
-  display: flex !important;
-  flex-direction: column !important;
-  gap: 24px !important;
-}
-.faq-header {
-  font-family: "Luckiest Guy", sans-serif;
-  font-weight: 400;
-  font-size: 36px;
-  text-align: center;
-  color: #faf7f0;
-  -webkit-text-stroke: 2px #5a3e2b;
-  padding-bottom: 64px;
-}
-
-.container-accordion {
-  width: 1040px;
-  margin: 0 auto;
-}
-
-.main-acc {
-  border-radius: 12px;
-  background: #d9bb8a;
-  width: 100%; 
-  margin-bottom: 24px !important;
-} 
-
- .upper-case {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 16px 24px;
-}
-
-.accordion-h2 {
-  font-family: "Baloo 2", sans-serif;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 1.4;
-  letter-spacing: 0.01em;
-  color: #5a3e2b;
-  margin: 0; 
-}
-
-.accordion-content {
-  padding: 0 24px 16px;
-}
-
-.accordion-content-text {
-  font-family: "Baloo 2", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.4;
-  letter-spacing: 0.01em;
-  color: #5a3e2b;
-  margin: 0;
-}
 
 
-/*#endregion acoorderon*/
+  .accordion{
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 24px !important;
+  }
+  .faq-header {
+    font-family: "Luckiest Guy", sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+    color: #faf7f0;
+    -webkit-text-stroke: 2px #5a3e2b;
+    padding-bottom: 64px;
+  }
 
+  .container-accordion {
+    width: 1040px;
+    margin: 0 auto;
+  }
+
+  .main-acc {
+    border-radius: 12px;
+    background: #d9bb8a;
+    width: 100%; 
+    margin-bottom: 24px !important;
+  } 
+
+  .upper-case {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 24px;
+  }
+
+  .accordion-h2 {
+    font-family: "Baloo 2", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.4;
+    letter-spacing: 0.01em;
+    color: #5a3e2b;
+    margin: 0; 
+  }
+
+  .accordion-content {
+    padding: 0 24px 16px;
+  }
+
+  .accordion-content-text {
+    font-family: "Baloo 2", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.4;
+    letter-spacing: 0.01em;
+    color: #5a3e2b;
+    margin: 0;
+  }
+
+
+
+
+  @media only screen and (max-width: 1439px) {
+    .swiper {
+      height: auto;
+    }
+    .faq-header{
+      text-align: start;
+      padding-bottom: 24px;
+    }
+  }
+  .accordion.first.open{
+    margin-bottom: 24px;
+  }
+  .accordion.main-acc.first.close{
+    margin-bottom: 24px;
+  }
