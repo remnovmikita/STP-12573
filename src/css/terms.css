@@ -1,0 +1,71 @@
+main.container {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.title-terms {
+  font-family: 'Luckiest Guy', sans-serif;
+  font-weight: 400;
+  font-size: 56px;
+  color: #faf7f0;
+  -webkit-text-stroke: 2px #5a3e2b;
+  margin-bottom: 36px;
+}
+
+.text-title {
+  font-weight: 500;
+  font-size: 40px;
+  color: #5a3e2b;
+  font-family: 'Baloo 2', sans-serif;
+  margin-bottom: 24px;
+}
+
+.text-information {
+  font-weight: 400;
+  font-size: 16px;
+  font-family: 'Baloo 2', sans-serif;
+
+  line-height: 22px;
+  letter-spacing: 0.01em;
+  color: #5a3e2b;
+}
+
+.last-text {
+  margin-bottom: 36px;
+}
+
+.domain {
+  font-weight: 600;
+  font-size: 20px;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+ol {
+  list-style: decimal;
+  padding-left: 24px;
+}
+
+.last-text:last-child {
+  margin-bottom: 0;
+}
+
+.btn-back-terms {
+  display: flex;
+  align-items: center;
+
+  width: 220px;
+  height: 48px;
+  padding-left: 16px;
+  font-family: 'Baloo 2', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+  color: #5a3e2b;
+}
+.btn-back-icon-terms {
+  margin-right: 16px;
+}
