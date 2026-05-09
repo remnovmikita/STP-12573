@@ -9,7 +9,14 @@
   align-items: center;
   flex-shrink: 0;
 }
-
+.menu-btn-my{
+    background-color: #d6b88f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+}
 .logo-text {
   font-family: 'Luckiest Guy', sans-serif;
   font-weight: 400;
@@ -85,6 +92,13 @@
   .logo-link-mobile,
   .menu-btn {
     display: none;
+  }
+  .menu-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
   }
 }
 
@@ -176,6 +190,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
+ background-color: #d6b88f;
   padding: 0;
 }
