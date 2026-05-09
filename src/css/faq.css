@@ -1,9 +1,11 @@
-.accordion {
-  display: flex;
-  flex-direction: column;
-  gap: 24px; /* расстояние между .main-acc */
-}
 
+/* #region acoorderon*/
+
+.accordion{
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 24px !important;
+}
 .faq-header {
   font-family: "Luckiest Guy", sans-serif;
   font-weight: 400;
@@ -16,17 +18,17 @@
 
 .container-accordion {
   width: 1040px;
-  margin: 0 auto; /* центрируем */
+  margin: 0 auto;
 }
 
 .main-acc {
   border-radius: 12px;
   background: #d9bb8a;
-  width: 100%;
-  
-}
+  width: 100%; 
+  margin-bottom: 24px !important;
+} 
 
-.upper-case {
+ .upper-case {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -40,7 +42,7 @@
   line-height: 1.4;
   letter-spacing: 0.01em;
   color: #5a3e2b;
-  margin: 0; /* убираем лишние отступы */
+  margin: 0; 
 }
 
 .accordion-content {
@@ -56,3 +58,7 @@
   color: #5a3e2b;
   margin: 0;
 }
+
+
+/*#endregion acoorderon*/
+
