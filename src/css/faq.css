@@ -1,0 +1,58 @@
+.accordion {
+  display: flex;
+  flex-direction: column;
+  gap: 24px; /* расстояние между .main-acc */
+}
+
+.faq-header {
+  font-family: "Luckiest Guy", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  text-align: center;
+  color: #faf7f0;
+  -webkit-text-stroke: 2px #5a3e2b;
+  padding-bottom: 64px;
+}
+
+.container-accordion {
+  width: 1040px;
+  margin: 0 auto; /* центрируем */
+}
+
+.main-acc {
+  border-radius: 12px;
+  background: #d9bb8a;
+  width: 100%;
+  
+}
+
+.upper-case {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 24px;
+}
+
+.accordion-h2 {
+  font-family: "Baloo 2", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+  color: #5a3e2b;
+  margin: 0; /* убираем лишние отступы */
+}
+
+.accordion-content {
+  padding: 0 24px 16px;
+}
+
+.accordion-content-text {
+  font-family: "Baloo 2", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+  color: #5a3e2b;
+  margin: 0;
+}
