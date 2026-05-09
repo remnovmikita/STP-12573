@@ -98,15 +98,18 @@
   height: 100%;
 
   background-color: #d6b88f;
-  pointer-events: none;
+
   padding: 60px 16px 156px;
-  opacity: 0;
-  visibility: hidden;
+
+  transform: translateX(100%);
+  transition: transform 300ms ease;
+
+  pointer-events: none;
 }
 
 .mobile-menu.is-open {
-  opacity: 1;
-  visibility: visible;
+  transform: translateX(0);
+
   pointer-events: auto;
 }
 
@@ -115,6 +118,7 @@
   flex-direction: column;
   align-items: center;
   gap: 36px;
+  margin-top: 32px;
 }
 
 .nav-link-mobile {
