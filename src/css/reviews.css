@@ -24,26 +24,24 @@
 }
 
 
-.block {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  gap: 16px;
-  padding: 0 24px;
-  padding-top: 24px;
-}
-
 
 .swiper-slide {
-  height: auto;
-  flex-direction: column;
-  justify-content: center;
   border-radius: 12px;
-  padding: 24px;
   height: 100%;
   gap: 16px;
+  padding-top: 24px !important;
+  align-items: start !important;
+  justify-content: start !important;
   width: 419px;
   min-height: 168px;
+}
+.block{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding-left: 24px;
+  padding-right: 24px;
+  justify-content: start;
 }
 .block-stars{
   display: flex;
@@ -53,6 +51,7 @@
 }
 .block-stars li{
   height: 24px;
+  margin-bottom: 16px;
 }
 
 .players {
@@ -61,6 +60,7 @@
   font-size: 20px;
   line-height: 1.4;
   letter-spacing: 0.01em;
+  margin-bottom: 16px;
   text-align: start;
   color: #5a3e2b;
 }
