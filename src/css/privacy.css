@@ -11,30 +11,34 @@ main.container {
     height: 48px;
     margin-left: 16px;
 }
-.btn-back-icon{
-    margin-right: 16px;
-  
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transform: rotate(180deg);
+.btn-back {
+  font-family: "Baloo 2", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+  color: #5a3e2b;
+
+  display: flex;
+  align-items: center;
 }
-.headers-h1{
-    font-family: "Luckiest Guy", sans-serif;
-font-weight: 400;
-font-size: 56px;
-color: #faf7f0;
--webkit-text-stroke:2px #5a3e2b;
-margin-bottom: 36px;
+
+.btn-back-icon {
+  margin-right: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(180deg);
+
 }
-.btn-back{
-    font-family: "Baloo 2", sans-serif;
-font-weight: 600;
-font-size: 20px;
-line-height: 1.4;
-letter-spacing: 0.01em;
-color: #5a3e2b;
+.btn-back:hover {
+  color: #faf7f0;             
 }
+
+.btn-back:hover .btn-back-icon {
+  --color1: #faf7f0;          
+}
+
 .personal-information{
     font-family: "Baloo 2", sans-serif;
 font-weight: 400;
