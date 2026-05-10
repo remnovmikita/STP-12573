@@ -10,6 +10,7 @@
 section.hero {
   padding-bottom: 40px;
   padding-top: 40px;
+  width: 100%;
 }
 
 .hero-text {
@@ -19,17 +20,77 @@ section.hero {
   color: #5a3e2b;
 }
 
-.hero {
-  max-width: 100%;
-
-  background-image: url('../img/Background.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
+.hero-picture {
+  display: block;
+  width: 100%;
 }
 
-@media (min-resolution: 2dppx), (min-resolution: 192dpi) {
-  .hero {
-    background-image: url('../img/Background@2x.png');
+.hero-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.button-link-hero {
+  width: 150px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  border: 1px solid #a6a6a6;
+  border-radius: 5px;
+  gap: 10px;
+}
+
+.button-text-hero {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 7px 0;
+  padding-right: 10px;
+}
+
+.button-goggle-hero {
+  padding-left: 10px;
+}
+
+.hero-bottom-title {
+  font-weight: 400;
+  font-size: 56px;
+  text-align: right;
+  color: #faf7f0;
+  font-family: 'Luckiest Guy', sans-serif;
+  -webkit-text-stroke: 2px #5a3e2b;
+}
+
+.hero-bottom-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+@media only screen and (max-width: 1439px) {
+  .hero-title {
+    font-weight: 400;
+    font-size: 28px;
+    -webkit-text-stroke: 2px #5a3e2b;
+  }
+
+  .hero-text {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+  }
+
+  .hero-bottom-title {
+    font-weight: 400;
+    font-size: 28px;
+    text-align: right;
+    -webkit-text-stroke: 2px #5a3e2b;
+    letter-spacing: 0;
+    margin-top: 24px;
+    line-height: 1.1;
   }
 }
