@@ -5,7 +5,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 
 
-const swiper = new Swiper(".mySwiper", {
+const swiper = new Swiper(".swiper-gallery", {
   modules: [Navigation],
   slidesPerView: 1,
   spaceBetween: 24,
