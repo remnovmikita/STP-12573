@@ -1,79 +1,104 @@
+.faq-header{
+  font-family: "Luckiest Guy", sans-serif;
+font-weight: 400;
+font-size: 36px;
+text-align: center;
+color: #faf7f0;
+-webkit-text-stroke:2px #5a3e2b;
+padding-bottom: 64px;
+}
+.accordion {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 1040px;
+  justify-content: center;
+  margin: 0 auto;
+}
+.accordion-h2{
+  font-family: "Baloo 2", sans-serif;
+font-weight: 600;
+font-size: 20px;
+line-height: 1.4;
+letter-spacing: 0.01em;
+text-align: center;
+color: #5a3e2b;
+}
+.accordion-content-text{
+  font-family: "Baloo 2", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.4;
+letter-spacing: 0.01em;
+color: #5a3e2b;
+}
 
+.main-acc {
+  background: #d9bb8a;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: background 0.3s ease-in-out;
+}
 
+.upper-case {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 24px;
+  cursor: pointer;
+}
 
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-in-out;
+}
+
+.accordion-content-text {
+  padding: 0 24px 16px;
+  margin: 0;
+}
+
+.icon {
+  transition: transform 0.5s ease-in-out;
+}
+
+/* OPEN */
+
+.main-acc.open .accordion-content {
+  max-height: 200px;
+}
+
+.main-acc.open .icon {
+  transform: rotate(180deg);
+}
+
+/* разные цвета */
+
+.main-acc.first.open {
+  background: #f7d62e;
+}
+
+.main-acc.second.open {
+  background: #fd8ff0;
+}
+
+.main-acc.third.open {
+  background: #74d2ee;
+}
+
+.main-acc.fourth.open {
+  background: #a4c73a;
+}
+
+.main-acc.fifth.open {
+  background: #fdab4f;
+}
+@media only screen and (max-width: 1439px){
+  .faq-header{
+    text-align: start;
+  }
   .accordion{
-    display: flex !important;
-    flex-direction: column !important;
-    gap: 24px !important;
+    width: 343px;
   }
-  .faq-header {
-    font-family: "Luckiest Guy", sans-serif;
-    font-weight: 400;
-    font-size: 36px;
-    text-align: center;
-    color: #faf7f0;
-    -webkit-text-stroke: 2px #5a3e2b;
-    padding-bottom: 64px;
-  }
-
-  .container-accordion {
-    width: 1040px;
-    margin: 0 auto;
-  }
-
-  .main-acc {
-    border-radius: 12px;
-    background: #d9bb8a;
-    width: 100%; 
-    margin-bottom: 24px !important;
-  } 
-
-  .upper-case {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 16px 24px;
-  }
-
-  .accordion-h2 {
-    font-family: "Baloo 2", sans-serif;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 1.4;
-    letter-spacing: 0.01em;
-    color: #5a3e2b;
-    margin: 0; 
-  }
-
-  .accordion-content {
-    padding: 0 24px 16px;
-  }
-
-  .accordion-content-text {
-    font-family: "Baloo 2", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.4;
-    letter-spacing: 0.01em;
-    color: #5a3e2b;
-    margin: 0;
-  }
-
-
-
-
-  @media only screen and (max-width: 1439px) {
-    .swiper {
-      height: auto;
-    }
-    .faq-header{
-      text-align: start;
-      padding-bottom: 24px;
-    }
-  }
-  .accordion.first.open{
-    margin-bottom: 24px;
-  }
-  .accordion.main-acc.first.close{
-    margin-bottom: 24px;
-  }
+}

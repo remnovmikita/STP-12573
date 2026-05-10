@@ -110,4 +110,7 @@
     text-align: start;
     padding-bottom: 24px;
   }
+  .swiper-slide {
+  min-height: 200px;
+}
 }

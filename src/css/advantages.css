@@ -26,6 +26,7 @@ padding-bottom: 64px;
     gap: 24px;
 }
 .advantages-li{
+    border-radius: 12px;
     width: 508px;
     height: 156px;
     display: flex;
@@ -33,6 +34,7 @@ padding-bottom: 64px;
     align-items: center;
     flex-direction: column;
     padding: 59px 24px;
+
 }
 .advantages-h3{
 font-family: "Baloo 2", sans-serif;
