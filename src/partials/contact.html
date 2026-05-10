@@ -25,7 +25,31 @@
     </a>
    </div>
    <picture>
-    <img src="/img/Contact.png" alt="contact-photo" width="508" height="508" class="contact-photo">
-   </picture>
+                <!-- Desctop (1440px) -->
+                <source 
+                srcset="
+                /img/Contact.png 1x,
+                /img/Contact@2x.png 2x
+                " 
+                media="(min-width: 1440px)">
+
+                <!-- Mobile (1439px) -->
+                <source 
+                srcset="
+                /img/Contact-mobile.png 1x,
+                /img/Contact-mobile@2x.png 2x
+                " 
+                media="(max-width: 1439px)">
+
+            
+                <img 
+                src="/img/Contact-mobile.png" 
+                class="contact-photo"
+                height="" 
+                width="" 
+                alt="contact-photo"
+                loading="lazy"
+                >
+            </picture>
     </div>
 </section>

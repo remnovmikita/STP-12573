@@ -25,15 +25,20 @@
 
 
 
-.swiper-slide {
+.swiper-slide.first,
+.swiper-slide.second,
+.swiper-slide.third,
+.swiper-slide.fours,
+.swiper-slide.five {
   border-radius: 12px;
   height: 100%;
   gap: 16px;
   padding-top: 24px !important;
+  padding-bottom: 24px !important;
   align-items: start !important;
   justify-content: start !important;
-  width: 419px;
-  min-height: 168px;
+  width: 419px !important;
+  height: 168px !important;
 }
 .block{
   display: flex;
@@ -111,6 +116,14 @@
     padding-bottom: 24px;
   }
   .swiper-slide {
-  min-height: 200px;
+  min-height: 220px;
+}
+.swiper-slide.first,
+.swiper-slide.second,
+.swiper-slide.third,
+.swiper-slide.fours,
+.swiper-slide.five {
+width: 343px !important;
+height: 170px !important;
 }
 }
