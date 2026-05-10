@@ -7,6 +7,7 @@ const reviewsSwiper = new Swiper(".reviews-swiper", {
   modules: [Navigation],
   slidesPerView: 1,
   spaceBetween: 24,
+  loop:true,
   navigation: {
     nextEl: ".reviews-next",
     prevEl: ".reviews-prev",
