@@ -42,9 +42,18 @@
   padding: 24px;
   height: 100%;
   gap: 16px;
+  width: 419px;
   min-height: 168px;
 }
-
+.block-stars{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 6px;
+}
+.block-stars li{
+  height: 24px;
+}
 
 .players {
   font-family: "Baloo 2", sans-serif;
