@@ -13,7 +13,7 @@
 font-weight: 400;
 font-size: 36px;
 color: #faf7f0;
-padding-bottom: 16px;
+margin-bottom: 16px;
 -webkit-text-stroke:2px #5a3e2b
 }
 
@@ -24,7 +24,7 @@ font-size: 20px;
 line-height: 1.4;
 letter-spacing: 0.01em;
 color: #5a3e2b;
-padding-bottom: 16px;
+margin-bottom: 16px;
 
 }
 .contact-mail{
@@ -34,7 +34,7 @@ font-size: 20px;
 line-height: 1.4;
 letter-spacing: 0.01em;
 color: #5a3e2b;
-padding-bottom: 24px;
+margin-bottom: 24px;
 }
 .contact-photo{
     box-shadow: 12px 14px 28px 0 rgba(237, 191, 111, 0.4);
