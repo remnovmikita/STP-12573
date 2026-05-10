@@ -91,6 +91,3 @@ text-decoration-skip-ink: none;
 .domain{
     text-decoration: underline;
 }
-.privacy:last-child {
-    margin-bottom: 70px; 
-}

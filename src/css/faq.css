@@ -21,7 +21,7 @@ font-weight: 600;
 font-size: 20px;
 line-height: 1.4;
 letter-spacing: 0.01em;
-text-align: center;
+text-align: start;
 color: #5a3e2b;
 }
 .accordion-content-text{
@@ -101,4 +101,7 @@ color: #5a3e2b;
   .accordion{
     width: 343px;
   }
+.main-acc.first h2{
+  width: 250px;
+}
 }
