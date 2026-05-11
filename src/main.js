@@ -1,4 +1,5 @@
+import './js/accorgion';
 import './js/burgerMenu';
-import "./js/accorgion"
-import "./js/reviews"
-import "./js/gallery"
+import './js/features';
+import './js/gallery';
+import './js/reviews';

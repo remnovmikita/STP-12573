@@ -1,0 +1,107 @@
+.title-features {
+  font-weight: 400;
+  font-size: 36px;
+  text-align: right;
+  color: #faf7f0;
+  font-family: 'Luckiest Guy', sans-serif;
+  -webkit-text-stroke: 2px #5a3e2b;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.text-title-features {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  color: #5a3e2b;
+  text-align: center;
+  font-family: 'Baloo 2', sans-serif;
+  margin-bottom: 64px;
+}
+.features-circle {
+  border-radius: 100px;
+  padding: 71px 24px;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.yellow {
+  background-color: #f7d62e;
+}
+.violet {
+  background-color: #fd8ff0;
+}
+.blue {
+  background-color: #74d2ee;
+}
+.green {
+  background-color: #a4c73a;
+}
+.orange {
+  background-color: #fdab4f;
+}
+.features-item-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #5a3e2b;
+  font-family: 'Baloo 2', sans-serif;
+}
+.features-item-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #5a3e2b;
+  font-family: 'Baloo 2', sans-serif;
+}
+.features-top-row {
+  display: flex;
+  column-gap: 244px;
+  justify-content: center;
+  margin-bottom: 64px;
+}
+.features-bottom-row {
+  display: flex;
+  justify-content: center;
+  column-gap: 240px;
+}
+
+@media only screen and (min-width: 1440px) {
+  .features-swiper.swiper {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1439px) {
+  .title-features {
+    text-align: left;
+    margin-bottom: 0px;
+    font-size: 24px;
+  }
+
+  .text-title-features {
+    text-align: left;
+    margin-bottom: 24px;
+  }
+
+  .features-circles {
+    display: none;
+  }
+
+  .features-swiper.swiper {
+    display: block;
+    overflow: hidden;
+  }
+
+  .features-slide.swiper-slide {
+    width: 200px;
+    flex-shrink: 0;
+  }
+}
