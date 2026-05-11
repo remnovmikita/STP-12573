@@ -70,6 +70,14 @@ ol {
   margin-right: 16px;
 }
 
+.btn-back-terms:hover {
+  color: #faf7f0;
+}
+
+.btn-back-terms:hover .btn-back-icon-terms {
+  --color1: #faf7f0;
+}
+
 @media only screen and (max-width: 1439px) {
   .title-terms {
     line-height: 1;
