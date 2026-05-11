@@ -1,0 +1,105 @@
+.title-howplay {
+  font-weight: 400;
+  font-size: 36px;
+  text-align: right;
+  color: #faf7f0;
+  font-family: 'Luckiest Guy', sans-serif;
+  -webkit-text-stroke: 2px #5a3e2b;
+  text-align: left;
+}
+
+.how-play-subtitle {
+  font-weight: 600;
+  font-size: 20px;
+
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  color: #5a3e2b;
+  font-family: 'Baloo 2', sans-serif;
+}
+
+.title-wrapper-content {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.how-play-item-title {
+  font-weight: 600;
+  font-size: 20px;
+
+  line-height: 1.4;
+  color: #5a3e2b;
+  font-family: 'Baloo 2', sans-serif;
+  margin-bottom: 5px;
+}
+
+.how-play-item-text {
+  font-weight: 400;
+  font-size: 16px;
+  position: relative;
+  padding-left: 16px;
+
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+  color: #5a3e2b;
+  font-family: 'Baloo 2', sans-serif;
+}
+
+.how-play-item-text::before {
+  content: '';
+
+  position: absolute;
+  left: 0;
+  top: 9px;
+
+  width: 5px;
+  height: 5px;
+
+  border-radius: 50%;
+  background-color: #5a3e2b;
+}
+
+.list-how-toplay {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.how-play-content {
+  display: flex;
+  justify-content: center;
+
+  gap: 24px;
+}
+
+.text-howplay-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.how-play-image {
+  width: 597px;
+  height: auto;
+  max-width: none;
+  border-radius: 12px;
+}
+
+.how-play-content {
+  align-items: center;
+}
+
+@media only screen and (max-width: 1439px) {
+  .how-play-content {
+    flex-direction: column;
+  }
+
+  .how-play-image {
+    width: 343px;
+    height: 100%;
+  }
+
+  .title-howplay {
+    font-size: 24px;
+  }
+}
