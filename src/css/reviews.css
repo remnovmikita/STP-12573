@@ -6,7 +6,7 @@
   text-align: center;   
   color: #faf7f0;
   -webkit-text-stroke: 2px #5a3e2b;
-  padding-bottom: 64px;
+  margin-bottom: 64px;
 }
 
 .swiper.reviews-swiper {
@@ -70,7 +70,7 @@ padding: 24px;
 
 
 .swiper-navigation {
-  padding-top: 24px;
+  margin-top: 24px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -87,11 +87,7 @@ padding: 24px;
   cursor: pointer;
 }
 
-.btn-revies {
-  width: 22px;
-  height: 22px;
-  fill: #5a3e2b;
-}
+
 
 .reviews-prev .btn-revies {
   transform: rotate(180deg);
@@ -111,7 +107,8 @@ padding: 24px;
   }
   .reviews-h2{
     text-align: start;
-    padding-bottom: 24px;
+    margin-bottom: 24px;
+    font-size: 24px;
   }
   .swiper-slide {
   min-height: 200px;

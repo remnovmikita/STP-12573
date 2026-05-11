@@ -82,4 +82,8 @@ ol {
   .title-terms {
     line-height: 1;
   }
+  main.container {
+  padding: 36px 16px;
+}
+
 }
