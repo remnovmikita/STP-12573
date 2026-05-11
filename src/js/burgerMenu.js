@@ -9,3 +9,14 @@ openMenuBtn.addEventListener('click', () => {
 closeMenuBtn.addEventListener('click', () => {
   mobileMenu.classList.remove('is-open');
 });
+
+(() => {
+  const mobileMenu = document.querySelector(".mobile-menu");
+  const anchors = mobileMenu.querySelectorAll('a[href*="#"]');
+
+  anchors.forEach(anchor => {
+    anchor.addEventListener("click", () => {
+      mobileMenu.classList.remove("is-open");
+    });
+  });
+})();

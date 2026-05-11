@@ -1,16 +1,5 @@
-main.container {
-  padding-top: 70px;
-  padding-bottom: 70px;
-}
-.btn-back{
-    display: flex;
-    align-items: center;
-    align-items: center;
-    margin-bottom: 36px;
-    width: 220px;
-    height: 48px;
-    margin-left: 16px;
-}
+
+
 .btn-back {
   font-family: "Baloo 2", sans-serif;
   font-weight: 600;
@@ -18,18 +7,32 @@ main.container {
   line-height: 1.4;
   letter-spacing: 0.01em;
   color: #5a3e2b;
-
+  width: 220px;
   display: flex;
   align-items: center;
+  margin-bottom: 36px;
 }
-
+.block-icon{
+  margin: 0 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+}
+.headers-h1{
+  font-family: "Luckiest Guy", sans-serif;
+font-weight: 400;
+font-size: 56px;
+color: #faf7f0;
+-webkit-text-stroke:2px #5a3e2b;
+margin-bottom: 36px;
+}
 .btn-back-icon {
-  margin-right: 16px;
   display: flex;
   justify-content: center;
   align-items: center;
   transform: rotate(180deg);
-
 }
 .btn-back:hover {
   color: #faf7f0;             
@@ -49,6 +52,7 @@ color: #5a3e2b;
 }
 
 .headers-h2{
+  margin-top: 36px;
     font-family: "Baloo 2", sans-serif;
 font-weight: 500;
 font-size: 40px;
@@ -56,7 +60,7 @@ color: #5a3e2b;
 margin-bottom: 24px;
 }
 .container .privacy{
-    padding: 18px 0;
+    padding: 0;
 }
 .privacy-ul{
     margin-top: 10px;
