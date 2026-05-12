@@ -12,7 +12,15 @@
 .reviews-prev-gallery .btn-revies {
   transform: rotate(180deg);
 }
-
+.reviews-prev-gallery,
+.reviews-next-gallery{
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
 .swiper.swiper-gallery {
   width: 100%;
   height: 100%;

@@ -3,3 +3,4 @@ import './js/burgerMenu';
 import './js/features';
 import './js/gallery';
 import './js/reviews';
+import "./js/predLoader"
