@@ -20,6 +20,8 @@ margin-bottom: 16px;
 
 }
 .contact-mail{
+    width: 100%;
+    max-width: 343px;
 font-family: "Baloo 2", sans-serif;
 font-weight: 600;
 font-size: 20px;
@@ -29,7 +31,8 @@ color: #5a3e2b;
 margin-bottom: 24px;
 }
 .contact-photo{
-    width: 508px;
+    width: 100%;
+    max-width: 508px;
     height: 508px;
 }
 
@@ -66,7 +69,8 @@ stroke: #fff;
 
 /*#endregion */
  .contact-block{
-    width: 508px;
+    width: 100%;
+    max-width: 508px;
 }
 .container-contact{
     display: flex;
@@ -79,7 +83,8 @@ stroke: #fff;
 
 @media only screen and (max-width: 1439px) {
     .contact-photo{
-    width: 343px;
+        width: 100%;
+    max-width: 343px;
     height: 343px;
 }
 .container-contact{
@@ -90,9 +95,15 @@ stroke: #fff;
     gap: 24px;
 }
 .contact-block{
-    width: 343px;
+    width: 100%;
+    max-width: 343px;
 }
 .contact-header{
     font-size: 24px;
+}
+}
+@media only screen and (max-width: 375px){
+  .contackt-adress p {
+  white-space: wrap;
 }
 }

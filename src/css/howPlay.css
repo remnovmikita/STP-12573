@@ -79,7 +79,8 @@
 }
 
 .how-play-image {
-  width: 597px;
+  width: 100%;
+  max-width: 597px;
   height: auto;
   max-width: none;
   border-radius: 12px;
@@ -95,7 +96,8 @@
   }
 
   .how-play-image {
-    width: 343px;
+    width: 100%;
+    max-width: 343px;
     height: 100%;
   }
 
