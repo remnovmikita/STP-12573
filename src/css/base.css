@@ -53,3 +53,9 @@ section{
   from { opacity: 0.4; }
   to { opacity: 1; }
 }
+@media only screen and (max-width: 1439px){
+  section{
+  padding: 36px 0;
+  scroll-margin-top: 20px
+}
+}
