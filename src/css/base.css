@@ -8,6 +8,7 @@ body {
 }
 section{
   padding: 70px 0;
+  scroll-margin-top: 20px
 }
 
 .no-scroll {
