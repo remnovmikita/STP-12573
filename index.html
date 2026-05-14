@@ -16,10 +16,10 @@
     <script type="module" crossorigin src="/STP-12573/index.js"></script>
     <link rel="modulepreload" crossorigin href="/STP-12573/assets/vendor-DNYj5UF-.js">
     <link rel="stylesheet" crossorigin href="/STP-12573/assets/vendor-Cq8LIkOh.css">
-    <link rel="stylesheet" crossorigin href="/STP-12573/assets/styles-BtrUMyaC.css">
+    <link rel="stylesheet" crossorigin href="/STP-12573/assets/styles-BozzlxIl.css">
   </head>
-  <body id="content">
-    <div id="loader">
+  <body id="content" data-scroll="enabled">
+    <div id="loader" data-loader="open">
       <div class="loader-character">
         <img src="/STP-12573/assets/logoPhone@2x-CpKQr2WE.png" class="loader-img" alt="Loading character">
       </div>
@@ -87,15 +87,15 @@
         </li>
       </ul>
 
-      <button class="menu-btn-my">
+      <button class="menu-btn-my" data-action="open">
         <svg width="35" height="24">
           <use href="/STP-12573/assets/sprite-CMyD4g5f.svg#icon-burger-icon"></use>
         </svg>
       </button>
     </nav>
 
-    <div class="mobile-menu">
-      <button class="btn-closed-mobile-menu">
+    <div class="mobile-menu" data-visible="close">
+      <button class="btn-closed-mobile-menu" data-action="close">
         <svg width="24" height="24" class="icon-closed-form">
           <use href="/STP-12573/assets/sprite-CMyD4g5f.svg#icon-close-icon"></use>
         </svg>
@@ -143,6 +143,7 @@
     <main>
     <section class="hero" id="section-hero">
   <div class="container hero-content-wrapper">
+    <div class="hero-wriper">
     <div class="hero-content">
       <h1 class="hero-title">MATCH THE ELEMENTS. MASTER THE BOARD</h1>
       <p class="hero-text">Every move shapes the reaction</p>
@@ -183,10 +184,12 @@
       <h2 class="hero-bottom-title">CONTROL THE POWER OF ELEMENTS</h2>
     </div>
   </div>
+  </div>
 </section>
 
     <section class="about" id="section-about">
   <div class="container">
+    <div class="content-wrapper">   
     <div class="about-content">
       <h2 class="title-about">About a Game</h2>
       <p class="text-about">
@@ -199,12 +202,14 @@
         moves three steps ahead.
       </p>
     </div>
+     </div>
   </div>
 </section>
 
     <section class="how-play" id="section-how-play">
   <div class="container">
-    <div class="how-play-content">
+    <div class="content-wrapper">
+          <div class="how-play-content">
       <div class="text-howplay-content">
         <div class="title-wrapper-content">
           <h2 class="title-howplay">How to Play</h2>
@@ -257,14 +262,18 @@
         />
       </picture>
     </div>
+
+    </div>
+
   </div>
 </section>
 
     <section class="features" id="section-features">
   <div class="container">
-    <h2 class="title-features">Features</h2>
+    <div class="content-wrapper">
+      <h2 class="title-features">Features</h2>
     <p class="text-title-features">Keeps you hooked without overwhelming you</p>
-    <div class="features-circles">
+          <div class="features-circles">
       <div class="features-top-row">
         <div class="features-circle yellow">
           <h3 class="features-item-title">Elemental Theme</h3>
@@ -337,12 +346,16 @@
         </div>
       </div>
     </div>
+    </div>
+    
+
   </div>
 </section>
 
     <section class="advantages" id="section-advantages">
     <div class="container">
-        <h2 class="advantages-h2">Advantages</h2>
+        <div class="content-wrapper">
+                    <h2 class="advantages-h2">Advantages</h2>
         <p class="advantages-afher-h2">Why it stands out</p>
         <ul class="advantages-ul">
             <li class="advantages-li first">
@@ -362,10 +375,11 @@
                 <p class="advantages-p">Play anytime, at your own pace.</p>
             </li>
         </ul>
+        </div>
     </div>
 </section>
     <section id="section-gallery">
-    <div class="container">
+    <div class="container container-gallery">
         <h2 class="contact-gallery">Gallery</h2>
   <div class="swiper swiper-gallery">
     <div class="swiper-wrapper">
@@ -490,12 +504,12 @@
 
 
 <div class="swiper-navigation">
-    <div class="reviews-prev-gallery">
+    <div class="reviews-prev-gallery" data-reviews-prev-gallery>
         <svg class="btn-revies" width="14" height="26">
         <use href="/STP-12573/assets/sprite-CMyD4g5f.svg#icon-icon-right"></use>
         </svg>
     </div>
-    <div class="reviews-next-gallery">
+    <div class="reviews-next-gallery" data-reviews-next-gallery>
         <svg class="btn-revies" width="14" height="26">
         <use href="/STP-12573/assets/sprite-CMyD4g5f.svg#icon-icon-right"></use>
         </svg>
@@ -504,7 +518,7 @@
     </div>
 </section>
     <section class="reviews" id="section-reviews">
-  <div class="container">
+  <div class="container container-gallery">
     <h2 class="reviews-h2">Player Reviews</h2>
     <div class="swiper reviews-swiper">
       <div class="swiper-wrapper">
@@ -628,12 +642,12 @@
     </div>
 
 <div class="swiper-navigation">
-    <div class="reviews-prev">
+    <div class="reviews-prev" data-reviews-prev>
         <svg class="btn-revies" width="14" height="26">
         <use href="/STP-12573/assets/sprite-CMyD4g5f.svg#icon-icon-right"></use>
         </svg>
     </div>
-    <div class="reviews-next">
+    <div class="reviews-next" data-reviews-next>
         <svg class="btn-revies" width="14" height="26">
         <use href="/STP-12573/assets/sprite-CMyD4g5f.svg#icon-icon-right"></use>
         </svg>
@@ -644,12 +658,11 @@
 
     <section class="faq" id="section-faq">
    <div class="container">
-    <h2 class="faq-header">FAQ</h2>
-
-    
+    <div class="content-wrapper">
+    <h2 class="faq-header">FAQ</h2>  
 <div class="accordion">
-  <div class="main-acc first">
-    <div class="upper-case">
+  <div class="main-acc first" data-acc="first" data-state="close">
+    <div class="upper-case" data-header>
       <h2 class="accordion-h2">Is the gameplay complicated?</h2>
 
       <svg class="icon" width="26" height="14">
@@ -664,8 +677,8 @@
     </div>
   </div>
 
-  <div class="main-acc second">
-    <div class="upper-case">
+  <div class="main-acc second" data-acc="second" data-state="close">
+    <div class="upper-case" data-header>
       <h2 class="accordion-h2">Do levels become harder?</h2>
 
       <svg class="icon" width="26" height="14">
@@ -680,8 +693,8 @@
     </div>
   </div>
 
-   <div class="main-acc third">
-    <div class="upper-case">
+   <div class="main-acc third" data-acc="third" data-state="close">
+    <div class="upper-case" data-header>
       <h2 class="accordion-h2">Are there special abilities?</h2>
 
       <svg class="icon" width="26" height="14">
@@ -696,8 +709,8 @@
     </div>
   </div>
 
-    <div class="main-acc fourth">
-    <div class="upper-case">
+    <div class="main-acc fourth" data-acc="fourth" data-state="close">
+    <div class="upper-case" data-header>
       <h2 class="accordion-h2">Can I play casually?</h2>
 
       <svg class="icon" width="26" height="14">
@@ -712,8 +725,8 @@
     </div>
   </div>
 
-    <div class="main-acc fifth">
-    <div class="upper-case">
+    <div class="main-acc fifth" data-acc="fifth" data-state="close">
+    <div class="upper-case" data-header>
       <h2 class="accordion-h2">Is it suitable for beginners?</h2>
 
       <svg class="icon" width="26" height="14">
@@ -729,11 +742,12 @@
   </div>
 
 </div>
-
+</div>
    </div>
 </section>
     <section class="contact" id="section-contact">
-    <div class="container container-contact">
+    <div class="container">
+        <div class="content-wrapper container-contact">
            <div class="contact-block">
     <h2 class="contact-header">Contacts</h2>
     <p class="contact-text">Reach out anytime</p>
@@ -757,8 +771,8 @@
         </svg>
         </div>
     </a>
-   </div>
-   <picture>
+            </div>
+            <picture>
                 <!-- Desctop (1440px) -->
                 <source 
                 srcset="/STP-12573/assets/Contact-BpWW3d9c.png 1x, /STP-12573/assets/Contact@2x-BIBOVZED.png 2x" 
@@ -779,16 +793,20 @@
                 loading="lazy"
                 >
             </picture>
+        </div>
     </div>
 </section>
 
     </main>
     <footer>
   <div class="container">
+    <div class="content-wrapper">
+      
     <div class="footer-content">
         <a href="privacy.html" class="footer-pri">Privacy Policy</a>
         <a href="terms.html" class="footer-terms">Terms & Conditions</a>
       <p>© 2026 brightpayloadway.space — All rights reserved</p>
+    </div>
     </div>
   </div>
 </footer>
