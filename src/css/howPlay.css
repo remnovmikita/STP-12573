@@ -68,7 +68,7 @@
 
 .how-play-content {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 
   gap: 24px;
 }
@@ -86,15 +86,14 @@
   border-radius: 12px;
 }
 
-.how-play-content {
-  align-items: center;
-}
 
 @media only screen and (max-width: 1439px) {
   .how-play-content {
     flex-direction: column;
   }
-
+  .content-wrapper{
+  padding: 0px 0px;
+}
   .how-play-image {
     width: 100%;
     max-width: 343px;

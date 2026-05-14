@@ -14,7 +14,6 @@ margin-bottom: 64px;
   width: 100%;
   max-width: 1040px;
   justify-content: center;
-  margin: 0 auto;
 }
 .accordion-h2{
   font-family: "Baloo 2", sans-serif;
@@ -64,37 +63,36 @@ color: #5a3e2b;
   transition: transform 0.2s ease-in-out;
 }
 
-/* OPEN */
 
-.main-acc.open .accordion-content {
+
+
+.main-acc[data-state="close"] .accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-in-out;
+}
+
+.main-acc[data-state="close"] .icon {
+  transform: rotate(0deg);
+}
+
+
+.main-acc[data-state="open"] .accordion-content {
   max-height: 200px;
 }
 
-.main-acc.open .icon {
+.main-acc[data-state="open"] .icon {
   transform: rotate(180deg);
 }
 
-/* разные цвета */
 
-.main-acc.first.open {
-  background: #f7d62e;
-}
 
-.main-acc.second.open {
-  background: #fd8ff0;
-}
+.main-acc.first[data-state="open"] { background: #f7d62e; }
+.main-acc.second[data-state="open"] { background: #fd8ff0; }
+.main-acc.third[data-state="open"] { background: #74d2ee; }
+.main-acc.fourth[data-state="open"] { background: #a4c73a; }
+.main-acc.fifth[data-state="open"] { background: #fdab4f; }
 
-.main-acc.third.open {
-  background: #74d2ee;
-}
-
-.main-acc.fourth.open {
-  background: #a4c73a;
-}
-
-.main-acc.fifth.open {
-  background: #fdab4f;
-}
 @media only screen and (max-width: 1439px){
   .faq-header{
     text-align: start;
