@@ -152,7 +152,12 @@
 
   filter: brightness(1.05) saturate(1.08);
 }
-
+@media screen and (max-width:1439px) {
+  .features-circle:hover {
+  transform: none;
+  box-shadow: none;
+}
+}
 .features-circle:hover::before {
   opacity: 1;
 

@@ -9,8 +9,8 @@ const reviewsSwiper = new Swiper(".reviews-swiper", {
   spaceBetween: 24,
   loop:true,
   navigation: {
-    nextEl: ".reviews-next",
-    prevEl: ".reviews-prev",
+    nextEl: "[data-reviews-next]",
+    prevEl: "[data-reviews-prev]",
   },
   breakpoints: {
     375: {

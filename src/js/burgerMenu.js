@@ -1,22 +1,21 @@
-const openMenuBtn = document.querySelector('.menu-btn-my');
-const closeMenuBtn = document.querySelector('.btn-closed-mobile-menu');
-const mobileMenu = document.querySelector('.mobile-menu');
+const openBtnEl = document.querySelector('[data-action="open"]');
+const closeBtnEl = document.querySelector('[data-action="close"]');
+const burgerMenuEl = document.querySelector('[data-visible]');
 
-openMenuBtn.addEventListener('click', () => {
-  mobileMenu.classList.add('is-open');
+openBtnEl.addEventListener('click', () => {
+  burgerMenuEl.dataset.visible = 'open';
 });
 
-closeMenuBtn.addEventListener('click', () => {
-  mobileMenu.classList.remove('is-open');
+closeBtnEl.addEventListener('click', () => {
+  burgerMenuEl.dataset.visible = 'close';
 });
+
 
 (() => {
-  const mobileMenu = document.querySelector(".mobile-menu");
-  const anchors = mobileMenu.querySelectorAll('a[href*="#"]');
-
+  const anchors = burgerMenuEl.querySelectorAll('a[href*="#"]');
   anchors.forEach(anchor => {
     anchor.addEventListener("click", () => {
-      mobileMenu.classList.remove("is-open");
+      burgerMenuEl.dataset.visible = 'close';
     });
   });
 })();

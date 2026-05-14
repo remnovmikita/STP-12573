@@ -10,8 +10,8 @@ const swiper = new Swiper(".swiper-gallery", {
   slidesPerView: 1,
   spaceBetween: 24,
   navigation: {
-    nextEl: ".reviews-next-gallery",
-    prevEl: ".reviews-prev-gallery",
+    nextEl: "[data-reviews-next-gallery]",
+    prevEl: "[data-reviews-prev-gallery]",
   },
     breakpoints: {
     375: {
