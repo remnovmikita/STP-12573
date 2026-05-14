@@ -2,12 +2,17 @@
   font-family: 'Luckiest Guy', sans-serif;
   font-weight: 400;
   font-size: 56px;
-  line-height: 1;
-  letter-spacing: 0;
   color: #faf7f0;
+<<<<<<< HEAD
   -webkit-text-stroke: 2px #5a3e2b;
   margin: 0;
   margin-bottom: 16px;
+=======
+    margin: 0;         
+  line-height: 50px; 
+  -webkit-text-stroke: 2px #5a3e2b; 
+  margin-bottom: 16px;     
+>>>>>>> origin/main
 }
 
 .hero {
@@ -17,19 +22,32 @@
   background-size: 100% auto;
 
   min-height: 750px;
-
+  display: flex;
+  justify-content: space-between;
   padding-top: 40px;
   padding-bottom: 40px;
   width: 100%;
+<<<<<<< HEAD
   margin: 0;
   line-height: 1px;
 }
 
+=======
+
+}
+.hero-content{
+  display: flex;
+  flex-direction: column;
+}
+
+>>>>>>> origin/main
 .hero-text {
   font-family: 'Baloo 2', sans-serif;
   font-weight: 500;
   font-size: 40px;
   color: #5a3e2b;
+  margin: 0;         
+  line-height: 35px; 
 }
 
 .button-link-hero {
@@ -63,8 +81,8 @@
   color: #faf7f0;
   font-family: 'Luckiest Guy', sans-serif;
   -webkit-text-stroke: 2px #5a3e2b;
-  margin: 0;
-  line-height: 1;
+   margin: 0;         
+  line-height: 1.1; 
 }
 
 .hero-bottom-content {
@@ -105,13 +123,13 @@
     font-weight: 400;
     font-size: 28px;
     -webkit-text-stroke: 2px #5a3e2b;
+        margin: 0;         
+  line-height: 23px; 
   }
 
   .hero-text {
     font-weight: 600;
     font-size: 20px;
-    line-height: 1px;
-    letter-spacing: 0.01em;
   }
 
   .hero-bottom-wrapper {
