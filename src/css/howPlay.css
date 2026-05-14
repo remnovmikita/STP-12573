@@ -6,6 +6,8 @@
   font-family: 'Luckiest Guy', sans-serif;
   -webkit-text-stroke: 2px #5a3e2b;
   text-align: left;
+  margin-bottom: 16px;
+   line-height: 1;
 }
 
 .how-play-subtitle {
@@ -15,23 +17,24 @@
   line-height: 28px;
   letter-spacing: 0.01em;
   color: #5a3e2b;
+   line-height: 0.6;
   font-family: 'Baloo 2', sans-serif;
 }
 
 .title-wrapper-content {
   display: flex;
   flex-direction: column;
-  margin-bottom: 30px;
+  margin-bottom: 64px;
 }
 
 .how-play-item-title {
   font-weight: 600;
   font-size: 20px;
 
-  line-height: 1.4;
+  line-height: 0.6;
   color: #5a3e2b;
   font-family: 'Baloo 2', sans-serif;
-  margin-bottom: 5px;
+  margin-bottom: 21px;
 }
 
 .how-play-item-text {
@@ -40,22 +43,20 @@
   position: relative;
   padding-left: 16px;
 
-  line-height: 1.4;
+  line-height: 0.63;
   letter-spacing: 0.01em;
   color: #5a3e2b;
   font-family: 'Baloo 2', sans-serif;
 }
-
 .how-play-item-text::before {
   content: '';
-
   position: absolute;
   left: 0;
-  top: 9px;
+  top: 1px;
 
   width: 5px;
   height: 5px;
-
+  
   border-radius: 50%;
   background-color: #5a3e2b;
 }
@@ -63,7 +64,7 @@
 .list-how-toplay {
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 24px;
 }
 
 .how-play-content {
@@ -91,6 +92,7 @@
   .how-play-content {
     flex-direction: column;
   }
+
   .content-wrapper{
   padding: 0px 0px;
 }
@@ -99,8 +101,29 @@
     max-width: 343px;
     height: 100%;
   }
-
-  .title-howplay {
-    font-size: 24px;
+  .how-play-item-text{
+    line-height: 1;
   }
+  .how-play-item-text::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 4px;
+
+  width: 5px;
+  height: 5px;
+  
+  border-radius: 50%;
+  background-color: #5a3e2b;
+}
+.title-wrapper-content{
+  margin-bottom: 24px;
+}
+.list-how-toplay li:first-child .how-play-item-text::before{
+  top: 10px;
+}
+
+.list-how-toplay li:nth-child(2) .how-play-item-text::before {
+  top: 10px;
+}
 }
