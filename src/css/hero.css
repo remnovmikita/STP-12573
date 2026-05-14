@@ -85,6 +85,11 @@
     margin-top: 500px;
   }
 }
+@media screen and (min-width:1600px) {
+  .hero-bottom-content{
+    margin-top: 540px;
+  }
+}
 @media screen and (min-width:1800px) {
   .hero-bottom-content{
     margin-top: 620px;
