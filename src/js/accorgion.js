@@ -1,16 +1,11 @@
-const accordionItems = document.querySelectorAll(".main-acc");
+const accordionItems = document.querySelectorAll("[data-acc]");
 
 accordionItems.forEach(item => {
-  const header = item.querySelector(".upper-case");
+  const header = item.querySelector("[data-header]");
 
   header.addEventListener("click", () => {
+    const isOpen = item.dataset.state === "open";
 
-  // accordionItems.forEach(acc => {
-  //     if (acc !== item) {
-  //       acc.classList.remove("open");
-  //     }
-  //   });
-
-    item.classList.toggle("open");
+    item.dataset.state = isOpen ? "close" : "open";
   });
 });

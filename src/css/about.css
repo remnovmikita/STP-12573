@@ -5,7 +5,9 @@
   color: #faf7f0;
   font-family: 'Luckiest Guy', sans-serif;
 }
-
+.content-wrapper{
+  padding: 0px 100px;
+}
 .text-about {
   font-weight: 400;
   font-size: 16px;
@@ -32,6 +34,9 @@
     align-items: flex-start;
     -webkit-text-stroke: 1px #5a3e2b;
   }
+  .content-wrapper{
+  padding: 0px 0px;
+}
 
   .text-about {
     max-width: 343px;

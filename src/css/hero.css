@@ -6,6 +6,8 @@
   letter-spacing: 0;
   color: #faf7f0;
   -webkit-text-stroke: 2px #5a3e2b;
+  margin: 0;
+  margin-bottom: 16px;
 }
 
 .hero {
@@ -19,6 +21,8 @@
   padding-top: 40px;
   padding-bottom: 40px;
   width: 100%;
+  margin: 0;
+  line-height: 1px;
 }
 
 .hero-text {
@@ -59,13 +63,20 @@
   color: #faf7f0;
   font-family: 'Luckiest Guy', sans-serif;
   -webkit-text-stroke: 2px #5a3e2b;
+  margin: 0;
+  line-height: 1;
 }
 
 .hero-bottom-content {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  margin-top: 560px;
+  gap: 36px;
+}
+
+.hero-bottom-wrapper {
+  margin-top: 478px;
+  padding-right: 0px;
 }
 
 @media only screen and (min-resolution: 192dpi),
@@ -79,12 +90,15 @@
   .hero {
     background-image: url('../img/Hero-mobile.png');
     background-position: center top;
-    background-size: 372px auto;
+    background-size: 375px auto;
 
     min-height: 528px;
 
     padding-top: 16px;
     padding-bottom: 16px;
+  }
+  .hero-bottom-content {
+    gap: 24px;
   }
 
   .hero-title {
@@ -96,12 +110,12 @@
   .hero-text {
     font-weight: 600;
     font-size: 20px;
-    line-height: 28px;
+    line-height: 1px;
     letter-spacing: 0.01em;
   }
 
-  .hero-bottom-content {
-    margin-top: 425px;
+  .hero-bottom-wrapper {
+    margin-top: 437px;
   }
 
   .hero-bottom-title {
@@ -110,7 +124,6 @@
     text-align: right;
     -webkit-text-stroke: 2px #5a3e2b;
     letter-spacing: 0;
-    margin-top: 24px;
     line-height: 1.1;
   }
 }

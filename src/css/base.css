@@ -8,13 +8,14 @@ body {
 }
 section{
   padding: 70px 0;
-  scroll-margin-top: 20px
+  scroll-margin-top: 74px
 }
 
-.no-scroll {
+body[data-scroll="disabled"] {
   overflow: hidden;
   height: 100vh;
 }
+
 
 #loader {
   position: fixed;
@@ -27,7 +28,16 @@ section{
   z-index: 9999;
   transition: opacity 0.5s ease;
 }
+#loader[data-loader="open"] {
+  opacity: 1;
+  pointer-events: auto;
+}
 
+/* закрыто */
+#loader[data-loader="close"] {
+  opacity: 0;
+  pointer-events: none;
+}
 .loader-character img {
   width: 120px;
   animation: bounce 1.2s infinite ease-in-out;
@@ -52,4 +62,10 @@ section{
 @keyframes fade {
   from { opacity: 0.4; }
   to { opacity: 1; }
+}
+@media only screen and (max-width: 1439px){
+  section{
+  padding: 36px 0;
+  scroll-margin-top: 76px
+}
 }

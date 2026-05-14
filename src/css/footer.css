@@ -35,3 +35,10 @@ color: #5a3e2b;
     gap: 287px;
   }
 }
+@media screen and (max-width: 1439px) {
+  .features-circle:hover{
+    transform: none;
+    box-shadow: none;
+    filter: none;
+  }
+}
